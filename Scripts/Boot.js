@@ -40,7 +40,10 @@ function boot(){
 const DataTypes = {
     DT_BOOL : 0,
     DT_INT : 1,
-    DT_UINT : 2
+    DT_UINT : 2,
+    DT_FLOAT : 3,
+    DT_UFLOAT : 4,
+    DT_CHAR : 5
 }
 
 function setData(byte,data){
